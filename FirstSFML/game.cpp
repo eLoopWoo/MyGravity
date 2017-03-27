@@ -8,6 +8,7 @@ player* player1;
 
 
 
+
 sf::CircleShape mk_triangle(sf::RenderWindow& window,int w,int z){
 	sf::CircleShape triangle(40, 3);
 	triangle.setPosition(sf::Vector2f(w, z));
